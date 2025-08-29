@@ -1,2 +1,19 @@
-# portfolio-website
-Hi I'm Jamie, a passionate programmer with a love for clean code, creative problem-solving, and building useful, user-friendly applications. This portfolio showcases some of my favourite projects and the skills I've developed along the way. Thanks for stopping by — feel free to explore and reach out!
+Please consider the below factors while contributing
+
+Code Style:
+Maintain a consistent code style for readability.
+
+Documentation:
+Ensure well-documented code for effective collaboration.
+
+Testing:
+Thoroughly test your changes before submitting a pull request.
+
+Issue Tracker:
+Check the Issue Tracker for tasks.
+
+Code Review:
+All contributions undergo a code review process.
+
+Licensing:
+Contributions are licensed.

@@ -22,10 +22,12 @@ This repository contains the source code for my personal portfolio website, whic
 
 **Repository Structure**
 
-├── index.html        # Main landing page  
-├── style.css         # Custom styling  
-├── script.js         # Interactive elements  
-└── assets/           # Images, icons, etc.  
+├── docs/  
+│   ├── index.html        # Main landing page  
+│   ├── style.css         # Custom styling  
+│   ├── script.js         # Interactive elements  
+│   └── assets/           # Images, icons, etc.  
+└── README.md             # Project documentation  
 
 **Live Demo**
 

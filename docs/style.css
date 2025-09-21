@@ -63,7 +63,7 @@ h2 {
   font-size: 50px;
   text-align: center;
   float: left;
-  color: #7600bc;
+  color: #0515c9;
   margin: 30px;
   margin-left: 60px;
   margin-top: 40px;
@@ -95,9 +95,9 @@ h2 {
 }
 
 #about-me h1 {
-  font-size: 65px;
+  font-size: 50px;
   margin-top: 10px;
-  color: #7600bc;
+  color: #0515c9;
 }
 
 #about-me p {
@@ -215,7 +215,7 @@ h2 {
 }
 
 .recommendation span {
-  color: #7600bc;
+  color: #0515c9;
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -226,7 +226,7 @@ h2 {
   width: 48px;
   height: 48px;
   border-radius: 100%;
-  background-color: #7600bc;
+  background-color: #0515c9;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -257,8 +257,8 @@ h2 {
 
 .popup button {
   background-color: #fff;
-  border: 1px solid #7600bc;
-  color: #7600bc;
+  border: 1px solid #0515c9;
+  color: #0515c9;
   display: block;
   border-radius: 6px;
   text-align: center;
@@ -271,8 +271,8 @@ h2 {
 
 .popup button:hover {
   background-color: #fff;
-  border: 2px solid #7600bc;
-  color: #7600bc;
+  border: 2px solid #0515c9;
+  color: #0515c9;
   display: block;
   font-weight: bolder;
   text-align: center;
@@ -303,8 +303,8 @@ fieldset {
 
 button {
   background-color: #fff;
-  border: 1px solid #7600bc;
-  color: #7600bc;
+  border: 1px solid #0515c9;
+  color: #0515c9;
   display: block;
   border-radius: 6px;
   text-align: center;
@@ -315,8 +315,8 @@ button {
 }
 
 button:hover {
-  background-color: #7600bc;
-  border: 1px solid #7600bc;
+  background-color: #0515c9;
+  border: 1px solid #0515c9;
   color: #fff;
   display: block;
   border-radius: 6px;

@@ -25,7 +25,6 @@ body {
 
 .topmenu:hover {
   color: white;
-  /* Add the styles here */
   font-weight: bolder;
   text-decoration: underline;
 }
@@ -33,12 +32,12 @@ body {
 .topdiv {
   float: right;
   padding-right: 1cm;
+  padding-top: 0.5cm;
 }
 
 .profile_name {
   float: left;
   padding-left: 2cm;
-  /* Add the styles here */
   color: lightblue;
 }
 

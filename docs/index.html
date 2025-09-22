@@ -88,39 +88,43 @@
     <section id="skills">
       <h2>Skills</h2>
       <div style="clear:both;"></div>
-
       <div class="all_skills">
-        <div class="skill">
-          <img src="assets/html5.png"/>
-          <h6>HTML</h6>
-          <p>Working proficiency</p>
-        </div>  
 
-        <div class="skill">
-          <img src="assets/js.jpeg"/>
-          <h6>JavaScript</h6>
-          <p>Working proficiency</p>
-        </div>  
-
-        <div class="skill">
-          <img src="assets/css3.png"/>
-          <h6>CSS</h6>
-          <p>Working proficiency</p>
-        </div>
-
-        <div class="skill">
+      <div class="skill">
           <img src="assets/java.png"/>
           <h6>Java</h6>
-          <p>Intermediate level</p>
+          <p>Proficient, with practical experience</p>
         </div>
 
         <div class="skill">
           <img src="assets/python.png"/>
           <h6>Python</h6>
-          <p>Intermediate level</p>
+          <p>Proficient, with practical experience</p>
         </div>
 
+        <div class="skill">
+          <img src="assets/c.svg"/>
+          <h6>C</h6>
+          <p>Working knowledge, with practical experience</p>
+        </div>
+        
+        <div class="skill">
+          <img src="assets/html5.png"/>
+          <h6>HTML</h6>
+          <p>Working knowledge</p>
+        </div>  
 
+        <div class="skill">
+          <img src="assets/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>Working knowledge</p>
+        </div>  
+
+        <div class="skill">
+          <img src="assets/css3.png"/>
+          <h6>CSS</h6>
+          <p>Working knowledge</p>
+        </div>
 
       </div>
     </section>
@@ -130,6 +134,7 @@
       <h2>Recommendations</h2>
       <div style="clear:both;"></div>
       <div class="all_recommendations" id="all_recommendations">
+        <!--
         <div class="recommendation">
           <span>&#8220;</span>
           James is an exceptionally fast learner who quickly masters new web development concepts. He consistently brings a positive, can-do attitude and is an outstanding team player. His curiosity drives him to ask insightful questions that improve the whole team’s solutions. He takes initiative on projects and shows strong potential to lead technical efforts.
@@ -145,6 +150,7 @@
           James learns new technologies with remarkable speed and confidence. He’s dependable, communicates clearly, and contributes constructively during planning and code reviews. His inquisitive nature leads to better designs and fewer repeated mistakes. He regularly steps up to own features and shows emerging leadership qualities. 
           <span>&#8221;</span>
         </div>
+      -->
       </div>
     </section>
 
@@ -153,7 +159,7 @@
       <div class="flex_center">
         <fieldset>
           <legend class="introduction">Leave a Recommendation</legend>          
-          <input type="text" placeholder="Name (Optional)"> <br/>
+          <input id="name" type="text" placeholder="Name (Optional)"> <br/>
           <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
           <div class="flex_center">
             <button id="recommend_btn" onclick="addRecommendation()">Submit</button>

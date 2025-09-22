@@ -10,8 +10,8 @@ body {
   margin-left:-1cm;
   margin-right:-1cm;
   margin-top:-1cm;
-  padding-top: 2cm;
-  padding-bottom: 2cm;
+  padding-top: 1.2cm;
+  padding-bottom: 2.2cm;
   height: 5mm;
  }
 
@@ -32,7 +32,7 @@ body {
 .topdiv {
   float: right;
   padding-right: 1cm;
-  padding-top: 0.5cm;
+  padding-top: 0.8cm;
 }
 
 .profile_name {

@@ -61,6 +61,20 @@ body {
   color: black;
 }
 
+/*Profile Image*/
+.profile_image_container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.2cm;
+  margin-top: 0.2cm;
+}
+
+.profile_image {
+  height: 350px;
+  border-radius: 50%;
+  box-shadow: 0 3px 10px gray;
+}
+
 /* Titles */
 
 h2 {
@@ -111,12 +125,7 @@ h2 {
   margin-top: -1cm;
 }
 
-.profile_image {
-  width: 680px;
-  height: fit-content;
-  vertical-align: middle;
-  margin: 5px;
-}
+
 
 /* Skills */
 

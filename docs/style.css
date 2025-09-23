@@ -143,8 +143,11 @@ h2 {
   margin: 50px;
   padding: 10px;
   width: 2in;
+  height: 2in;
   font-size: 20px;
   box-shadow: 0 3px 10px gray;
+  box-sizing: content-box;
+  background-color: white;
 }
 
 .skill img {

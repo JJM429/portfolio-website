@@ -6,7 +6,7 @@ body {
 /* Navigation Bar */
 
 #home {
-  background-color:  #c4a0a3b5;
+  background-color: #c8b6a6;
   padding-bottom: 1cm;
   margin-left:-1cm;
   margin-right:-1cm;
@@ -210,10 +210,9 @@ h2 {
 .all_recommendations {
   display: flex;
   align-items: center;
-  margin-left: 1in;
+  margin-left: 60px;
   flex-direction: row;
   flex-flow: wrap;
-  padding: 20px;
 }
 
 .recommendation {
@@ -232,7 +231,7 @@ h2 {
 }
 
 .recommendation span {
-  color: #0515c9;
+  color: black;
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -299,6 +298,10 @@ h2 {
 
 /* Recommendation Form */
 
+.contact_form {
+  margin-top: 75px;
+}
+
 input, textarea {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
   margin: 10px;  
@@ -314,14 +317,15 @@ fieldset {
   margin-right: 50px;   
   border: thin solid white;
   width: 50%;
+  margin: auto;
 }
 
 /* Buttons */
 
 button {
   background-color: #fff;
-  border: 1px solid #0515c9;
-  color: #0515c9;
+  border: 1px solid black;
+  color: black;
   display: block;
   border-radius: 6px;
   text-align: center;
@@ -329,7 +333,8 @@ button {
   padding: 10px;
   width: 2in;
   font-size: 20px;
-}
+  box-shadow: 0 3px 10px gray;
+} 
 
 button:hover {
   background-color: #0515c9;

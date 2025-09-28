@@ -61,6 +61,14 @@ body {
   color: black;
 }
 
+/* Hide nav links for mobile */
+@media (max-width: 1128px) {
+    /* Hide the desktop links */
+    .topdiv {
+        display: none;
+    }
+}
+
 /*Profile Image*/
 .profile_image_container {
   display: flex;
